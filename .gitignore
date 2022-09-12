@@ -1,0 +1,15 @@
+# deps
+# install using ./install_cpputest.sh
+CppUTest
+# get Approvals using ./get-approvals.sh
+ApprovalTests.*
+
+# make targets
+ExampleTestAndApprovalTest
+OnlyExampleTest
+
+# approvals
+*.received.*
+
+# gitpod
+core.*
