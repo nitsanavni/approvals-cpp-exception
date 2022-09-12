@@ -1,0 +1,7 @@
+tasks:
+  - name: deps
+    before: |
+      ./get-approvals.sh
+      ./install-cpputest.sh
+    command:
+      make test
