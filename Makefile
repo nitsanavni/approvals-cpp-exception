@@ -18,7 +18,7 @@ OnlyExampleTest : $(USER_DIR)/OnlyExampleTest.cc
 
 
 clean :
-	git clean -df
+	git clean -fx
 
 test: ExampleTestAndApprovalTest
 	./ExampleTestAndApprovalTest
